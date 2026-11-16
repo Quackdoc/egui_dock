@@ -97,7 +97,6 @@ pub(super) fn fade_visuals(visuals: &mut Visuals, factor: f32) {
     visuals.hyperlink_color = visuals.hyperlink_color.linear_multiply(factor);
     visuals.faint_bg_color = visuals.faint_bg_color.linear_multiply(factor);
     visuals.extreme_bg_color = visuals.extreme_bg_color.linear_multiply(factor);
-    visuals.code_bg_color = visuals.code_bg_color.linear_multiply(factor);
     visuals.warn_fg_color = visuals.warn_fg_color.linear_multiply(factor);
     visuals.error_fg_color = visuals.error_fg_color.linear_multiply(factor);
     visuals.window_fill = visuals.window_fill.linear_multiply(factor);
